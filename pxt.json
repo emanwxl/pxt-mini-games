@@ -1,6 +1,6 @@
 {
     "name": "mini-games",
-    "description": "Mini-games for micro:bit",
+    "description": "Fun mini-games for micro:bit",
     "dependencies": {
         "core": "*",
         "radio": "*",
