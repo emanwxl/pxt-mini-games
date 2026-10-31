@@ -1,5 +1,6 @@
 # Mini-games
 Fun mini-games for micro:bit:
+
 ---
 ##### Use as Extension
 This repository can be added as an **extension** in MakeCode.
