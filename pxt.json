@@ -1,14 +1,14 @@
 {
-    "name": "pxt-mini-games",
-    "description": "",
+    "name": "mini-games",
+    "description": "Mini-games for micro:bit",
     "dependencies": {
         "core": "*",
         "radio": "*",
         "microphone": "*"
     },
     "files": [
-        "main.ts",
-        "README.md"
+        "README.md",
+        "mini-games.ts"
     ],
     "testFiles": [
         "test.ts"
