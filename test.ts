@@ -1,1 +1,1 @@
-minigames.rockPaperScissors(Forever.Once)
+minigames.rockPaperScissors(Forever.Once);
