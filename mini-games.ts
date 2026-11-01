@@ -22,7 +22,7 @@ namespace minigames {
         }
     }
     //% block="play rock paper scissors $forever"
-    export function rockPaperScissors(forever: Forever | boolean): void {
+    export function rockPaperScissors(forever: Forever): void {
         let player: number = 0
         let turn: boolean = true;
         let wins: number = 0;
@@ -56,14 +56,8 @@ namespace minigames {
                 }
                 basic.pause(500);
                 basic.clearScreen();
-                if (typeof forever === "number") {
-                    if (forever === 0) {
-                        return;
-                    }
-                } else {
-                    if (!forever) {
-                        return;
-                    }
+                if (forever === Forever.Once) {
+                    return;
                 }
                 basic.showString(`${wins} vs. ${losses}`, 95);
                 basic.clearScreen();
@@ -77,4 +71,14 @@ namespace minigames {
             }
         });
     }
+}
+
+/**
+ * The two game modes.
+ */
+enum Forever {
+    //% block="once"
+    Once,
+    //% block="forever"
+    Forever
 }
