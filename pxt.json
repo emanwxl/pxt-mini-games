@@ -3,12 +3,13 @@
     "description": "Fun mini-games for micro:bit",
     "dependencies": {
         "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "radio-broadcast": "*"
     },
     "files": [
         "README.md",
-        "mini-games.ts"
+        "mini-games.ts",
+        "enums.ts"
     ],
     "testFiles": [
         "test.ts"
