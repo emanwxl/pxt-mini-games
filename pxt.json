@@ -9,7 +9,7 @@
     "files": [
         "README.md",
         "mini-games.ts",
-        "locales/es-ES/mini-games-strings.json"
+        "_locales/es-ES/mini-games-strings.json"
     ],
     "testFiles": [
         "test.ts"
