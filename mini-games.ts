@@ -21,7 +21,7 @@ namespace minigames {
             basic.showIcon(IconNames.Scissors);
         }
     }
-    //% block="play rock paper scissors %forever"
+    //% block="play rock paper scissors $forever"
     export function rockPaperScissors(forever: Forever | boolean): void {
         let player: number = 0
         let turn: boolean = true;
