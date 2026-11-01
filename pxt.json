@@ -8,8 +8,7 @@
     },
     "files": [
         "README.md",
-        "mini-games.ts",
-        "enums.ts"
+        "mini-games.ts"
     ],
     "testFiles": [
         "test.ts"
